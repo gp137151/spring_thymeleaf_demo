@@ -9,5 +9,9 @@ public class TestController {
 
     public void test(){
         System.out.println("11111");
+        //update by lhq 
+        if(true){
+            
+        }
     }
 }
