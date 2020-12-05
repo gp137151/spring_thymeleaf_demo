@@ -18,11 +18,11 @@
 
 <!--引入片段-->
 <!--将片段直接插入页码样式之中-->
-<div th:insert="~{footer :: copy}"></div>
+<div th:insert="~{footer1 :: copy}"></div>
 <!--将片段的样式去除-->
-<div th:include="~{footer :: copy}"></div>
+<div th:include="~{footer1 :: copy}"></div>
 <!--将片段的样式替换掉页码样式-->
-<div th:replace="~{footer :: copy}"></div>
+<div th:replace="~{footer1 :: copy}"></div>
 
 </body>
 </html>
